@@ -1,3 +1,10 @@
+# Mark only Python files as code for stats
 *.py linguist-detectable=true
+
+# Force-ignore non-Python code from stats
 *.html linguist-detectable=false
 *.tex linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false
+*.ipynb linguist-detectable=false
+*.json linguist-detectable=false
